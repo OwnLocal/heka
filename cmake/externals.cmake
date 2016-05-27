@@ -154,9 +154,9 @@ git_clone(https://github.com/crankycoder/g2s 2594f7a035ed881bb10618bc5dc4440ef35
 git_clone(https://github.com/crankycoder/xmlpath 670b185b686fd11aa115291fb2f6dc3ed7ebb488)
 git_clone(https://github.com/thoj/go-ircevent 90dc7f966b95d133f1c65531c6959b52effd5e40)
 
-hg_clone(https://code.google.com/p/snappy-go default)
+git_clone(https://github.com/golang/snappy 723cc1e459b8eea2dea4583200fd60757d40097a)
 git_clone(https://github.com/Shopify/sarama ab8518c05fd3775bdbf06c97d97389fe8af2dfef)
-add_dependencies(sarama snappy-go)
+add_dependencies(sarama snappy)
 
 if (INCLUDE_GEOIP)
     add_external_plugin(git https://github.com/abh/geoip da130741c8ed2052f5f455d56e552f2e997e1ce9)
@@ -172,10 +172,10 @@ if (INCLUDE_MOZSVC)
     add_dependencies(heka-mozsvc-plugins raven-go)
 endif()
 
-hg_clone(https://code.google.com/p/go-uuid default)
-git_clone(https://code.google.com/p/gogoprotobuf 7008a93e68bf)
-add_custom_command(TARGET gogoprotobuf POST_BUILD
-COMMAND ${GO_EXECUTABLE} install code.google.com/p/gogoprotobuf/protoc-gen-gogo)
+git_clone(https://github.com/pborman/uuid ca53cad383cad2479bbba7f7a1a05797ec1386e4)
+git_clone(https://github.com/gogo/protobuf 7d21ffbc76b992157ec7057b69a1529735fbab21)
+add_custom_command(TARGET protobuf POST_BUILD
+COMMAND ${GO_EXECUTABLE} install github.com/gogo/protobuf/protoc-gen-gogo)
 
 include(plugin_loader OPTIONAL)
 
