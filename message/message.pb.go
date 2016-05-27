@@ -15,7 +15,7 @@
 */
 package message
 
-import proto "code.google.com/p/gogoprotobuf/proto"
+import proto "github.com/gogo/protobuf/proto"
 import json "encoding/json"
 import math "math"
 
@@ -23,7 +23,7 @@ import math "math"
 
 import io "io"
 import math1 "math"
-import code_google_com_p_gogoprotobuf_proto "code.google.com/p/gogoprotobuf/proto"
+import code_google_com_p_gogoprotobuf_proto "github.com/gogo/protobuf/proto"
 
 import math2 "math"
 

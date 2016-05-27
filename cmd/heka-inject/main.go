@@ -24,7 +24,7 @@ pipeline.
 package main
 
 import (
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"flag"
 	"github.com/mozilla-services/heka/client"
 	"github.com/mozilla-services/heka/message"

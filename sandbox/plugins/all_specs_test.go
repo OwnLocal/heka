@@ -16,7 +16,7 @@
 package plugins
 
 import (
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"github.com/mozilla-services/heka/message"
 	gs "github.com/rafrombrc/gospec/src/gospec"
 	"os"

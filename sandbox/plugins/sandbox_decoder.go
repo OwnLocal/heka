@@ -16,8 +16,8 @@
 package plugins
 
 import (
-	"code.google.com/p/go-uuid/uuid"
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/pborman/uuid"
+	"github.com/gogo/protobuf/proto"
 	"fmt"
 	"github.com/mozilla-services/heka/message"
 	"github.com/mozilla-services/heka/pipeline"

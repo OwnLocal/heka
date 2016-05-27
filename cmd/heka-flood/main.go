@@ -27,8 +27,8 @@ package main
 
 import (
 	"bytes"
-	"code.google.com/p/go-uuid/uuid"
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/pborman/uuid"
+	"github.com/gogo/protobuf/proto"
 	"crypto/tls"
 	"flag"
 	"fmt"

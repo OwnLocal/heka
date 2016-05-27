@@ -17,7 +17,7 @@ package pipeline
 
 import (
 	"bytes"
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"errors"
 	"fmt"
 	"github.com/mozilla-services/heka/message"

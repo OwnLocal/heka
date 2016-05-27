@@ -16,7 +16,7 @@ package message
 
 import (
 	"bytes"
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"github.com/rafrombrc/gospec/src/gospec"
 	gs "github.com/rafrombrc/gospec/src/gospec"
 	"os"

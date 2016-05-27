@@ -16,7 +16,7 @@
 package pipeline
 
 import (
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"github.com/mozilla-services/heka/client"
 	"github.com/mozilla-services/heka/message"
 	"math/rand"

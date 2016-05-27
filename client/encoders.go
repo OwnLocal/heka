@@ -16,7 +16,7 @@
 package client
 
 import (
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"crypto/hmac"
 	"crypto/md5"
 	"crypto/sha1"

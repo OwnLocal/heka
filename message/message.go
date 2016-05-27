@@ -24,7 +24,7 @@ package message
 
 import (
 	"bytes"
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"fmt"
 	"reflect"
 )

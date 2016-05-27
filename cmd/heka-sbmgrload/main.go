@@ -20,7 +20,7 @@ Heka Sandbox Manager Load Test
 package main
 
 import (
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"crypto/tls"
 	"flag"
 	"fmt"

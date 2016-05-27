@@ -22,7 +22,7 @@ protobuf logs.
 package main
 
 import (
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"encoding/json"
 	"flag"
 	"fmt"

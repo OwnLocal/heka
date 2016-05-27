@@ -16,7 +16,7 @@ package elasticsearch
 
 import (
 	"bytes"
-	"code.google.com/p/go-uuid/uuid"
+	"github.com/pborman/uuid"
 	"encoding/base64"
 	"encoding/json"
 	"github.com/mozilla-services/heka/message"

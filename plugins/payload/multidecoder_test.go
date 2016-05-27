@@ -21,7 +21,7 @@
 package payload
 
 import (
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"errors"
 	"fmt"
 	"github.com/bbangert/toml"
@@ -72,14 +72,14 @@ func MultiDecoderSpec(c gospec.Context) {
 		log_errors = true
 		[StartsWithM.message_fields]
 		StartsWithM = "%TheData%"
-	
+
 		[StartsWithS]
 		type = "PayloadRegexDecoder"
 		match_regex = '^(?P<TheData>s.*)'
 		log_errors = true
 		[StartsWithS.message_fields]
 		StartsWithS = "%TheData%"
-	
+
 		[StartsWithM2]
 		type = "PayloadRegexDecoder"
 		match_regex = '^(?P<TheData>m.*)'

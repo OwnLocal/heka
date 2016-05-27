@@ -15,7 +15,7 @@
 package plugins
 
 import (
-	"code.google.com/p/gogoprotobuf/proto"
+	"github.com/gogo/protobuf/proto"
 	"errors"
 	"fmt"
 	"github.com/mozilla-services/heka/message"
